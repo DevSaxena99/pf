@@ -1,0 +1,138 @@
+.first {
+  position: relative;
+  top: 270px;
+  right: 370px;
+  width: 233px;
+  height: 300px;
+  background: transparent radial-gradient(closest-side at 50% 50%, #FFFFFF 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.second {
+  position: relative;
+  top: 300px;
+  right: 300px;
+  font-weight: bold;
+  font: normal normal bold 30px/40px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.third {
+  position: relative;
+  top: 100px;
+  right: 270px;
+  width: 700px;
+  height: 700px;
+  border-radius: 100%;
+  background-image: -webkit-radial-gradient(circle, #3A3B3C, black);
+
+  border: 0.25px solid black;
+  opacity: 1;
+}
+
+
+img {
+  position: relative;
+  top: 200px;
+  left: 190px;
+  width: 300px;
+  border-radius: 100%;
+
+}
+
+.home-btn {
+  font-size: 30px;
+  font: normal normal 400 24px/32px Segoe UI;
+  position: relative;
+  top: 600px;
+  background-color: transparent;
+  background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+  color: white;
+}
+
+.home-btn:hover
+{
+  color: #BE5F5F ;
+}
+
+.forth {
+  position: relative;
+  bottom: 150px;
+  left: 1140px;
+  width: 300px;
+  height: 320px;
+  background: transparent radial-gradient(closest-side at 50% 50%, #FFFFFF 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.btn {
+  color : #FFFFFF;
+  width: 200px;
+  font-size: 25px;
+  background-color: #BE5F5F;
+}
+
+.btn4 {
+  font-size: 30px;
+  font: normal normal 400 24px/32px Segoe UI;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  color: white;
+}
+
+.btn4:hover
+{
+  color: #BE5F5F ;
+}
+
+.abt {
+  position: relative;
+  top: 50px;
+  left: 300px;
+}
+
+.exp {
+  position: relative;
+  top: 120px;
+  left: 250px;
+
+}
+
+.proj {
+  position: relative;
+  top: 190px;
+  left: 140px;
+}
+
+.cert {
+  position: relative;
+  top: 100px;
+  left: 700px;
+}
+li {
+  top: 356px;
+  left: 190px;
+  width: 215px;
+  height: 40px;
+  text-align: left;
+  font: normal normal 300 30px/40px Segoe UI;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  background-color: black;
+  color: white;
+}

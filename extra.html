@@ -1,0 +1,32 @@
+<script>
+
+function myFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("change").classList.remove("scroller");
+    document.getElementById("change").classList.add("slideup");
+  }
+
+  else {
+    document.getElementById("change").classList.remove("slideup");
+    document.getElementById("change").classList.add("scroller");
+  }
+}
+
+  window.onscroll = function() {
+    myFunction()
+  };
+
+</script>
+
+
+
+
+<form action="/" method="post">
+  <button class="btn4 abt" value="about" name="num1" type="submit">About</button <br>
+  <button class="btn4 exp" value="experience" name="num1" type="submit">Experience</button <br>
+  <button class="btn4 proj" value="project" name="num1" type="submit">Projects</button <br>
+  <button class="btn4 cert" value="certification" name="num1" type="submit">Certification</button>
+
+  <button class="home-btn" value="home" name="num1" type="submit">Home</button>
+
+</form>

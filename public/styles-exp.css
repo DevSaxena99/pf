@@ -1,0 +1,168 @@
+.first {
+  position: fixed;
+  top: 300px;
+  left: -105px;
+  width: 233px;
+  height: 288px;
+  background: transparent radial-gradient(closest-side at 50% 50%, #FFFFFF 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.second {
+  position: relative;
+  top: 100px;
+  left: 150px;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  color: white;
+  background-color: black;
+  font: normal normal bold 30px/40px Segoe UI;
+}
+
+.btn4 {
+  font-size: 30px;
+  font: normal normal 400 24px/32px Segoe UI;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  color: white;
+}
+
+.btn4:hover
+{
+  color: #BE5F5F ;
+}
+
+.abt {
+  z-index: 100;
+  position: fixed;
+  top: 350px;
+  left: 120px;
+}
+
+.exp {
+  z-index: 100;
+  position: fixed;
+  color: #BE5F5F ;
+  top: 400px;
+  left: 140px;
+}
+
+.proj {
+  z-index: 100;
+  position: fixed;
+  top: 460px;
+  left: 140px;
+}
+
+.cert {
+  z-index: 100;
+  position: fixed;
+  top: 520px;
+  left: 110px;
+}
+
+.home-btn {
+  font-size: 30px;
+  font: normal normal 400 24px/32px Segoe UI;
+  position: fixed;
+  top: 830px;
+  left: 50px;
+  background-color: transparent;
+  background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+  color: white;
+}
+
+.home-btn:hover
+{
+  color: #BE5F5F ;
+}
+
+h1 {
+  font-weight: normal;
+  font: normal ;
+}
+
+.exp  {
+  font-weight: bolder;
+}
+
+hr{
+  position: relative;
+  bottom: 10px;
+  left: 60px;
+  width: 500px;
+  border: 2px solid white;
+}
+
+.card {
+  font-size: 20px;
+  background-color: black;
+  border-width: 5px;
+  border-color: #BE5F5F;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 300px;
+}
+
+.skills {
+  height: 500px;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-text {
+  font-weight: lighter;
+}
+
+.progress-bar {
+  background-color: #BE5F5F;
+}
+
+.progress {
+  width: 290px;
+  height: 10px;
+}
+
+.sr-only {
+  color: white;
+}
+
+.container {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  padding-left: 5px;
+}
+
+.scroller {
+  transform: rotate(0deg);
+  width: 450px;
+  height: 300px;
+  position: relative;
+  bottom: 140px;
+  left: 0px;
+}
+
+.slideup {
+  transform: rotate(95deg);
+  width: 450px;
+  height: 300px;
+  position: relative;
+  top: 160px;
+  left: 0px;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

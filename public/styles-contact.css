@@ -1,0 +1,128 @@
+body {
+  overflow-y: hidden;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+  font: normal normal normal 30px/40px Segoe UI;
+  letter-spacing: 0px;
+  color: #BE5F5F;
+  opacity: 1;
+}
+
+img {
+  position: relative;
+  right: 200px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.btn {
+  color: #FFFFFF;
+  width: 200px;
+  font-size: 25px;
+  background-color: #BE5F5F;
+  font: normal normal 600 24px/32px Segoe UI;
+  letter-spacing: 0px;
+}
+
+.nameinput {
+  background-color: black;
+  color: white;
+  width: 24.8%;
+  height: 50px;
+  padding-left: 10px;
+  border-color: #BE5F5F;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.subjectinput {
+  background-color: black;
+  color: white;
+  width: 50.7%;
+  height: 50px;
+  padding-left: 10px;
+  border-color: #BE5F5F;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.messageinput {
+  background-color: black;
+  color: white;
+  width: 50.7%;
+  height: 150px;
+  padding-bottom: 100px;
+  padding-left: 10px;
+  border-color: #BE5F5F;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.first {
+  position: relative;
+  top: 300px;
+  right: 350px;
+  width: 233px;
+  height: 288px;
+  background: transparent radial-gradient(closest-side at 50% 50%, #FFFFFF 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+img {
+  position: relative;
+  top: 150px;
+  right: 240px;
+}
+.second {
+  position: relative;
+  bottom: 350px;
+  left: 100px;
+  width: 1700px;
+}
+
+.secondbtn {
+  position: relative;
+  top: 50px;
+}
+
+.thirdbtn {
+  position: relative;
+  bottom: 725px;
+  left: 600px;
+}
+
+.title {
+  width: 150px;
+  font-weight: lighter;
+}
+
+td {
+  color: white;
+  border: none;
+  font-size: 20px;
+  font: normal normal bold 24px/32px Segoe UI;
+}
+
+input:focus::-webkit-input-placeholder {
+  font-size: .75em;
+  position: relative;
+  top: -15px;
+  transition: 0.2s ease-out;
+}
+
+input::-webkit-input-placeholder {
+  transition: 0.2s ease-in;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  padding-bottom: 0px;
+  transition: 0.2s ease-in;
+}
+
+input[type="text"], input[type="password"] {
+  transition: 0.2s ease-in;
+}
